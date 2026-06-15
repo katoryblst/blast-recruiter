@@ -1,0 +1,211 @@
+QMainWindow {
+    background-color: #050505;
+}
+
+QWidget {
+    color: white;
+    font-family: Segoe UI;
+}
+
+#Sidebar {
+    background-color: #0b0b0b;
+    border-right: 1px solid #191919;
+}
+
+QPushButton {
+    background-color: #111111;
+    border: 1px solid #222222;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 12px;
+    text-align: left;
+}
+
+QPushButton:hover {
+    border: 1px solid #cc0000;
+}
+
+QPushButton[active="true"] {
+    background-color: #8b0000;
+    border: 1px solid #d10000;
+}
+
+QLineEdit {
+    background-color: #090909;
+    border: 1px solid #1f1f1f;
+    border-radius: 14px;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #d10000;
+}
+
+#DiscordButton {
+    background-color: #5865F2;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#PageTitle {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#VersionLabel {
+    color: #666666;
+}/* ================================= */
+/* КАРТОЧКИ */
+/* ================================= */
+
+#NewsCard {
+    background-color: #101010;
+    border: 1px solid #202020;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+#RuleCard {
+    background-color: #180909;
+    border: 1px solid #8b0000;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+#AllowCard {
+    background-color: #081608;
+    border: 1px solid #0fa50f;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+#ForbiddenTitle {
+    color: #ff3b3b;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#RuleCard {
+    background-color: #1a0b0b;
+    border: 1px solid #a51f1f;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+#AllowCard {
+    background-color: #0b180b;
+    border: 1px solid #23b523;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+/* ================================= */
+/* SCROLLBAR */
+/* ================================= */
+
+QScrollBar:vertical {
+    background: #090909;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #cc0000;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+
+/* ================================= */
+/* TOOLBOX */
+/* ================================= */
+
+QToolBox::tab {
+    background: #111111;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+QToolBox::tab:selected {
+    background: #8b0000;
+}
+
+/* ================================= */
+/* NEWS */
+/* ================================= */
+
+#NewsTitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#NewsDate {
+    color: #888888;
+    font-size: 12px;
+}
+#PageTitle {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#ImportantCard {
+    background-color: #2a0909;
+    border: 1px solid #ff2f2f;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+#RejectCard {
+    background-color: #2a0909;
+    border: 1px solid #ff2f2f;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+#AcceptCard {
+    background-color: #082108;
+    border: 1px solid #22d122;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+#RankCard {
+    background-color: #2b2207;
+    border: 1px solid #ffd54a;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+#SectionTitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#FAQAnswer {
+    background-color: #1f1f1f;
+    border-top: 1px solid #2d2d2d;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding: 18px;
+    color: #e3e3e3;
+    font-size: 15px;
+}
+
+#FAQCard {
+    background-color: #151515;
+    border: 1px solid #2a2a2a;
+    border-radius: 14px;
+}
